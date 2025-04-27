@@ -18,7 +18,7 @@ int permutacao(char *str, int inicio, int fim){
 
 int main(){
     char str[] = "abc";
-    int n = sizeof(str) / sizeof(str[0]) - 1; // -1 para ignorar o caractere nulo
+    int n = sizeof(str) / sizeof(str[0]) - 1; 
     permutacao(str, 0, n);
     return 0;
 }
